@@ -34,6 +34,10 @@ namespace Com.Latipium.Defaults.World.Generator {
 			return world;
 		}
 
+        /// <summary>
+        /// Loads the module.
+        /// </summary>
+        /// <param name="name">The module name.</param>
 		public override void Load(string name) {
 			WorldModule = ModuleFactory.FindModule("Com.Latipium.Modules.World");
 			if ( WorldModule != null ) {

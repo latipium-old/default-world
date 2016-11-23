@@ -51,6 +51,10 @@ namespace Com.Latipium.Defaults.World {
 			return Realms;
 		}
 
+        /// <summary>
+        /// Adds a realm to the world.
+        /// </summary>
+        /// <param name="realm">The realm.</param>
 		[LatipiumMethod("AddRealm")]
 		public void AddRealm(LatipiumObject realm) {
 			lock ( WorldLock ) {
